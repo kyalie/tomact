@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Pooling">
+    <Resource 
+       name="jdbc/pool"
+       auth="Container"
+       maxActive="1000"
+       maxIdle="100"
+       maxWait="500"
+       username="root"
+       password="6521"
+       driverClassName="com.mysql.jdbc.Driver"
+       url="jdbc:mysql://localhost:3306/pool"
+       logAbandoned="true"
+       removeAbadoned="true"
+       type="javax.sql.DataSource"
+       removeAbandonedTimeout="60"
+       />
+</Context>
